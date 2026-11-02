@@ -1,4 +1,4 @@
-class  extends StatefulWidget {
+class calculator extends StatefulWidget {
   const ({super.key});
 
   @override
