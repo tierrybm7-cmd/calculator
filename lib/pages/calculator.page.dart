@@ -14,6 +14,8 @@ class _calculatorState extends State<calculator> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Calculadora'),
+        centerTitle: true,
+        backgroundColor: Colors.indigo.shade100,
       ),
       body: const Center(
         child: Text('Calculator Page'),
