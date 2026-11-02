@@ -1,13 +1,23 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 class calculator extends StatefulWidget {
-  const ({super.key});
+  const calculator({super.key});
 
   @override
-  State<> createState() => _State();
+  State<calculator> createState() => _calculatorState();
 }
 
-class _State extends State<> {
+class _calculatorState extends State<calculator> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Calculadora'),
+      ),
+      body: const Center(
+        child: Text('Calculator Page'),
+      ),
+    );       
   }
 }
